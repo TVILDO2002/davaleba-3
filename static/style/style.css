@@ -1,0 +1,150 @@
+@font-face{
+    font-family: 'Poppins', sans-serif;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:'Open Sans', sans-serif;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+.navigation-header{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.navigation-header li{
+    display: inline-block;
+    margin: 30px;
+    font-size: 18px;
+}
+.navigation-header a{
+    text-decoration: none;
+    color: black;
+}
+.product-section{
+    font-family: 'Poppins', sans-serif;
+}
+.product-header{
+    text-align: center;
+    margin: 60px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.product-wrapper{
+    display: inline-block;
+}
+.product-wrapper.left{
+    margin-left: 150px;
+}
+.product-content{
+    border: 1px solid black;
+    display: inline-block;
+    width: 333px;
+    padding: 20px;
+}
+.product-content img{
+    width: 100%;
+}
+.product-content h3{
+    margin: 10px 0 15px 10px;
+    font-size: 16px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.product-content p{
+    margin-left: 10px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+.product-button button{
+    width: 118px;
+    background-color: inherit;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.product-button{
+    text-align: right;
+    margin-top: 20px;
+}
+.product-wrapper.middle{
+    margin: 0 100px 60px 100px;
+}
+.product-descriptorion{
+    display: inline-block;
+    font-family:'Open Sans', sans-serif;
+}
+.product-descriptorion ul{
+    font-size: 14px;
+    line-height: 19px;
+}
+.product-descriptorion.left{
+    margin-left: 175px;
+}
+.product-descriptorion.middle{
+    margin: 0 210px 50px 210px;
+}
+.contact-section{
+    font-family:'Open Sans', sans-serif;
+}
+.contact-header{
+    text-align: center;
+    margin-top: 85px;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #7D0000;
+}
+.contact-info{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.contact-info ul{
+    list-style: none;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+.contact-info li{
+    margin-top: 30px;
+}
+.contact-info a{
+    color: #000000;
+    font-style: italic;
+}
+.about-section{
+    font-family:'Open Sans', sans-serif;
+}
+.about-header{
+    text-align: center;
+    margin: 115px 0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    color: #7D0000;
+}
+.about-company{
+    width: 775px;
+    margin-left: 175px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    line-height: 165%;
+    font-weight: 600;
+    /* or 41px */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+.company-address{
+    margin-left: 175px;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-style: italic;
+}
